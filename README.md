@@ -52,15 +52,15 @@ Removing a file
 
 # mkdir
 
-Making a folder
+Making a directory
 
 # rmdir
 
-Removing an **empty** folder 
+Removing an **empty** directory 
 
 # rm -rf
 
-Removing a **full** folder
+Removing a **full** directory
 
 # cp 
 
@@ -136,3 +136,131 @@ Deleting user
 Quick inspection of a user
 
 **finger [usranme]**
+
+# whatis
+
+Quick guide for command
+
+# which
+
+The place of commands
+
+# whereis 
+
+All the places od commands
+
+# wget
+
+Download something frome internet
+
+ **wget [Link]**
+
+ # curl
+
+Download something frome internet and specifide a path and name for it
+
+**curl  [path+filename] [link]** -->  curl /home/user/Documents/image.jpg https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dmsYSNKQTnRVt7kHvDyqI_3qZmTc6Ei68w&s
+
+# zip / unzip
+
+ To compress/extraction files
+
+ **zip [zip file name.zip] [target file]**
+ 
+ **unzip file.zip**
+
+# less
+
+Viewing files page by page
+
+# head
+
+Viewing head of the files
+
+# tail
+
+Viewing end of the files
+
+#cmp
+
+Comparing 2 file to see if thay are different or not
+
+    cmp [file-1] [file-2]
+
+# diff
+
+Viewing the differences between 2 files
+
+    diff [file-1] [file-2]
+
+# sort
+
+Sorting content base on alphabet
+
+**cat [file.txt] | sort**
+
+# find
+
+Finding a file
+
+**find [path-you can use / for anywhere] -name "file.txt"**
+
+**find [path-you can use / for anywhere] -type f -name "."** --> Finding all the hidden files
+
+**find [path-you can use / for anywhere] -type f -empty** --> Finding all the empty directories
+
+# chown
+
+Chainging the ownership of files
+
+**chown [new user owner] file.txt**
+
+# ip a / ip address
+
+Viewing system IPs
+
+some common outputs you get:
+
+**inet->IPv4   /  inet6->IPv6  /  eth0->Cable internet  /  vlan0->WiFi**
+
+**ip address | grep [interface]** --> Only viewing [interface] information
+
+# ping
+
+Routing test
+
+**ping -c [number of pings] 8.8.8.8** --> ping -c 5 8.8.8.8
+    
+**ping -c [number of pings] -s [number of packes to sent] google.com** --> ping -c 5 -s 500 google.com
+
+# netstat
+
+Open ports in systems
+
+(you can install it with the following command:)
+
+    sudo apt update
+    
+    sudo apt install net-tools
+
+**Option Description:**
+
+-a --> Show all connections (listening and non-listening)
+
+-t --> Show TCP connections
+
+-u --> Show UDP connections
+
+-l --> Show only listening sockets 
+
+-n --> Show numeric addresses (no DNS resolution)
+
+-p --> Show PID and program name
+
+-r --> Show the routing table
+
+-s --> Show statistics by protocol
+
+-i --> Show network interface statistics
+
+-c --> Continuously update the output
