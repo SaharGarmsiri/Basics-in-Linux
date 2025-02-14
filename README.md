@@ -15,11 +15,13 @@ Displaying your current user
 
 # ls
 
-Listing everything in the current directory
+Listing everything in the directory
 
 **ls -l**  --> Displaying files/directories along with their owners and permissions and more
 
 **ls -a** --> Displaying files/directories along hidden ones
+
+**ls [Path]** --> Specifying a path for it
 
 # clear
 
