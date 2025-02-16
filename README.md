@@ -266,3 +266,65 @@ Open ports in systems
 -i --> Show network interface statistics
 
 -c --> Continuously update the output
+
+# uname
+
+Tell you about your systemse
+
+uname -a --> Tell you more
+
+# neofetch
+
+Tell you about your systemse (in a fancy wey)
+
+# free
+
+Display amount of free and used memory in the system
+
+# df 
+
+report file system space usage
+
+**df -H** --> print sizes in GB
+
+# ps
+
+report a snapshot of the current processes
+
+**ps -d** --> Viewing all the active process  
+
+# top
+
+display Linux processes 
+
+# htop
+
+display Linux processes (in a fancy wey)
+
+# kill
+
+Killing a process
+
+     kill -9 [PID]
+  
+for killing a process, you have to know there PID; you can find it:
+
+     ps -aux | grep [process name]
+
+
+# pkill 
+
+Killing a process (no need a PID)
+
+     pkill -f [PID] [process name]
+
+# history
+
+History of all the commands
+
+# reboot 
+
+      sudo reboot
+
+# shutdown   
+      sudo shutdown -h now
