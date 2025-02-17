@@ -307,7 +307,7 @@ Killing a process
 
      kill -9 [PID]
   
-for killing a process, you have to know there PID; you can find it:
+for killing a process, you have to know there PID; you can find it here:
 
      ps -aux | grep [process name]
 
@@ -316,7 +316,7 @@ for killing a process, you have to know there PID; you can find it:
 
 Killing a process (no need a PID)
 
-     pkill -f [PID] [process name]
+     pkill -f [process name]
 
 # history
 
