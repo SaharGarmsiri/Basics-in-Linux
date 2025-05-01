@@ -13,7 +13,7 @@ In my journey to learn Linux, I often encountered problems that I had to fix. He
 
 # "user is not in the sudoeris file" Error
     su -
-    usermode -aG sudo [username]
+    usermod -aG sudo [username]
     logout
 
 # if your network sudenlly brock in your VMware machine
