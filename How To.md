@@ -15,7 +15,7 @@ In my journey to learn Linux, I often encountered problems that I had to fix. He
     su -
     usermod -aG sudo [username]
     logout
-if even after logout, the erore was still there, try to log out of your [username] too and that try again.
+Even if after logout, the erore was still there, try to logout of your [username] too and that try again.
 
 # if your network sudenlly brock in your VMware machine
 - Check Network Interface Status
