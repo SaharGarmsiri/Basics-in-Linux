@@ -131,6 +131,17 @@ Adding a new user
 
 Deleting user
 
+### Issue:
+
+After deleting a user without the `--remove-home` option, their home directory remains on the system. Since the user no longer exists, trying to delete it with user management commands results in errors.
+
+### Solution:
+
+Manually remove the leftover home directory using:
+```
+sudo rm -r /home/username
+```
+
 **sudo deluser --remove-home [usranme]** --> Removing user and their home directory
 
 # finger
